@@ -1,0 +1,23 @@
+.container{
+    background-color: red;
+    height: 12px;
+    width: 12px;
+    border: 50px solid black;
+    border: 20px dotted coral;
+}
+div{
+    width: 500px;
+    height: 400px;
+    background-color: rgb(61, 223, 223);
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+@keyframes example{
+    40% {background-color: red; left: 0px; top: 0px;}
+    50% {background-color: yellow; left: 200px; top:0px;}
+    60% {background-color: blue; left: 200px; top: 200px;}
+    80% {background-color: green; left: 0px; top: 200px;}
+    40% {background-color: red; left: 0px; top: 0px;}
+}
